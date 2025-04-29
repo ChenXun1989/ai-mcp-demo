@@ -1,0 +1,24 @@
+server:
+  port: 9778
+
+spring:
+  ai:
+    mcp:
+      client:
+        type: ASYNC
+        enable: true
+        toolcallback:
+          enabled: true
+        sse:
+          connections:
+            my-mcp-mysql:
+              url: http://localhost:9777
+    openai:
+      embedding:
+        enabled: false
+      chat:
+        options:
+          model: "deepseek-chat"
+      # 需要替换为自己的api-key
+      api-key:
+      base-url: "https://api.deepseek.com"
