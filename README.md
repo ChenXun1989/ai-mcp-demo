@@ -25,3 +25,8 @@ mvn install
 
 # 测试
 > 浏览器输入 http://localhost:9778/chat/mysql?msg=%E7%8E%8B%E4%BA%94%E5%92%8C%E5%BC%A0%E4%B8%89%E7%9A%84%E8%8B%B1%E8%AF%AD%E6%88%90%E7%BB%A9%E6%98%AF%E5%A4%9A%E5%B0%91
+
+
+# 联系作者
+## 个人博客
+[https://www.chenxun.wiki](https://www.chenxun.wiki)
