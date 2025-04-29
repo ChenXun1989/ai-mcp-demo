@@ -2,10 +2,10 @@
  demo for ai mcp
  
 # 前置要求
-1.jdk17
-2.maven
-3.mysql（8+），可以换其他版本，但需要修改配置文件
-4.deepseek api token
+1. jdk17
+2. maven
+3. mysql（8+），可以换其他版本，但需要修改配置文件
+4. deepseek api token
 
 # 下载代码
 git clone https://github.com/ai-mcp/ai-mcp-demo.git
