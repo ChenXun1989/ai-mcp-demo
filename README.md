@@ -8,7 +8,7 @@
 4. deepseek api token
 
 # 下载代码
-git clone https://github.com/ai-mcp/ai-mcp-demo.git
+git clone git@github.com:ChenXun1989/ai-mcp-demo.git
 
 # 编译代码  
 mvn install 
