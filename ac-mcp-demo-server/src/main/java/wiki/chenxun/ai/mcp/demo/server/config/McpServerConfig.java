@@ -24,7 +24,8 @@ public class McpServerConfig {
 
     @Bean
     public ToolCallbackProvider mcpTools() {
-        return MethodToolCallbackProvider.builder().toolObjects(mcpServiceList.get(0)).build();
+        Object[] toolObjects=  mcpServiceList.toArray(new McpService[0]);
+        return MethodToolCallbackProvider.builder().toolObjects(toolObjects).build();
     }
 
 

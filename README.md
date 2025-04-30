@@ -25,8 +25,15 @@
 > 2. client 启动 wiki.chenxun.ai.demo.server.ClientApplication#main
 
 # 测试
-> 浏览器输入 http://localhost:9778/chat/mysql?msg=%E7%8E%8B%E4%BA%94%E5%92%8C%E5%BC%A0%E4%B8%89%E7%9A%84%E8%8B%B1%E8%AF%AD%E6%88%90%E7%BB%A9%E6%98%AF%E5%A4%9A%E5%B0%91
+### 查询张三英语成绩
+> http://localhost:9778/chat/mysql?chatMemoryConversationId=1&msg=张三英语成绩
+### 查询李四英语成绩
+> http://localhost:9778/chat/mysql?chatMemoryConversationId=1&msg=李四英语成绩
+### 查询他俩英语成绩加起来多少分
+> http://localhost:9778/chat/mysql?chatMemoryConversationId=1&msg=他俩英语成绩加起来多少分
 
+### 清理上下文记忆
+> http://localhost:9778/chat/clear?chatMemoryConversationId=1
 
 # 联系作者
 ## 个人博客
